@@ -1,0 +1,17 @@
+spring 
+    profiles: 
+        actice: 
+        - dev 
+        
+---
+spring: 
+    profiles: dev
+    application: 
+        name: microservicecloud-config-howso-dev
+---
+spring: 
+    profiles: test
+    application: 
+        name: microservicecloud-config-howso-test
+#请保存为UTF-8格式
+        
