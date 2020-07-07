@@ -12,8 +12,8 @@ spring:
         name: microservicecloud-config-client
 eureka: 
     client: 
-	service-url: 
-	    defaultZone: http://eureka7001.com:7001/eureka/   
+        service-url: 
+            defaultZone: http://eureka7001.com:7001/eureka/   
 ---
 server: 
     port: 8202
@@ -23,7 +23,7 @@ spring:
         name: microservicecloud-config-client
 eureka: 
     client: 
-	service-url: 
-	    defaultZone: http://eureka7002.com:7002/eureka/  
+        service-url: 
+            defaultZone: http://eureka7002.com:7002/eureka/  
 #请保存为UTF-8格式
         
