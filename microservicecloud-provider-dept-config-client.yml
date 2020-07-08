@@ -28,7 +28,7 @@ info:
 spring:
   profiles: dev
   application:
-    name: microservicecloud-provider-dept-config
+    name: microservicecloud-provider-dept-config-client
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
@@ -44,7 +44,7 @@ spring:
 spring:
   profiles: test
   application:
-    name: microservicecloud-provider-dept-config
+    name: microservicecloud-provider-dept-config-client
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
