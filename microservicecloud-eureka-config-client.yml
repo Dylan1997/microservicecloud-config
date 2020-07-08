@@ -1,3 +1,11 @@
+spring: 
+  profiles: 
+    actice: 
+      - dev
+---
+spring: 
+  profiles: dev
+  
 server: 
   port: 7001
  
